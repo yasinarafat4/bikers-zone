@@ -10,7 +10,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body class="container">
     <!-- header -->
@@ -56,7 +56,10 @@
         </div>
       </nav>
       <!-- banner slider -->
-      <div id="carouselExample" class="carousel slide bg-danger bg-opacity-10 rounded p-5">
+      <div
+        id="carouselExample"
+        class="carousel slide bg-danger bg-opacity-10 rounded p-5"
+      >
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
@@ -70,7 +73,7 @@
                     do amet sint. Velit officia consequat duis enim velit
                     mollit.
                   </p>
-                  <button class="btn btn-danger">Purchase</button>
+                  <button class="btn btn-danger mb-4">Purchase</button>
                 </div>
               </div>
               <div class="col-12 col-md-6">
@@ -137,7 +140,10 @@
           data-bs-target="#carouselExample"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon bikers-zone-prev-next-icon" aria-hidden="true"></span>
+          <span
+            class="carousel-control-prev-icon bikers-zone-prev-next-icon"
+            aria-hidden="true"
+          ></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
@@ -146,17 +152,39 @@
           data-bs-target="#carouselExample"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon bikers-zone-prev-next-icon" aria-hidden="true"></span>
+          <span
+            class="carousel-control-next-icon bikers-zone-prev-next-icon"
+            aria-hidden="true"
+          ></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
     </header>
 
     <!-- main -->
-    <main></main>
+    <main>
+      <!-- hot bike section -->
+      <section class="text-start text-md-center mt-5">
+        <h1>Hot Bikes In This Year</h1>
+        <p class="text-danger">Best bike collection</p>
+        <hr class="w-75 mx-auto border-danger" />
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 mt-3 px-5">
+          <div class="col">
+            <img class="w-100" src="images/bike-8.png" alt="bike-8">
+          </div>
+          <div class="col">
+            <img class="w-75" src="images/bike-4.jpg" alt="bike-4">
+          </div>
+          <div class="col">
+            <img class="w-100" src="images/header-bike.png" alt="bike-2">
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- footer -->
     <footer></footer>
+
     <!-- bootstrap js -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
